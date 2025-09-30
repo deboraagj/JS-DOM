@@ -41,7 +41,7 @@ let novoItem = () => {
     // ul.innerHTML += "<li>Harpa</li>";
 
     let add = document.createElement('li');
-    add.innerHTML = (<b>Harpa</b>);
+    add.innerHTML = ("<b>Harpa</b>");
     ul.appendChild(add);
 }
 
